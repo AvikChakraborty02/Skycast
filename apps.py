@@ -8,7 +8,7 @@ import streamlit as st
 def get_response(city_name,metric):
 
     # Access your API key from the secrets
-    api_key = st.secrets["api_keys"]["my_api_key"]
+    api_key = st.secrets["api_keys"]["WEATHER_API_KEY"]
 
     url = "https://api.weatherstack.com/current?access_key="+api_key+"&query="
     # splitting the city name and country
