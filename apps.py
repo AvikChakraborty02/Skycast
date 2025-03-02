@@ -8,8 +8,8 @@ def get_response(city_name,metric):
     # Load environment variables from the .env file
     load_dotenv()
 
-    # Access the secret key
-    api_key = os.getenv('WEATHER_API_KEY')
+    # Access your API key from the secrets
+    api_key = st.secrets["api_keys"]["my_api_key"]
 
     url = "https://api.weatherstack.com/current?access_key="+api_key+"&query="
     # splitting the city name and country
