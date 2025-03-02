@@ -3,6 +3,7 @@ import os
 import io
 from xhtml2pdf import pisa
 from dotenv import load_dotenv
+import streamlit as st
 
 def get_response(city_name,metric):
 
