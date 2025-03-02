@@ -1,8 +1,6 @@
 import streamlit as st
 import geonamescache
 import apps 
-import asyncio
-import pdfkit
 from datetime import datetime
 
 # Page Configuration
