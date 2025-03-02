@@ -70,8 +70,8 @@ st.sidebar.markdown(f"""
 """, unsafe_allow_html=True)
 st.sidebar.markdown("""
             <br>
-            <p style="line-height:0.6;">Developed By,</p>
-            <p style="line-height:0.6;">Avik Chakraborty 😎</p>
+            <p style="line-height:0.8;">Developed By,</p>
+            <p style="line-height:0.8;">Avik Chakraborty 😎</p>
             """,unsafe_allow_html=True)   
 
 # Title
@@ -183,9 +183,9 @@ if st.button("Get Weather Report",disabled=button_disabled):
                             <img src="{image_url}" alt="Weather image" style="border-radius: 5px; margin: auto;">
                         </div>
                         <br>
-                        <p style="line-height:0.6">Temperature: {temperature}</p>
-                        <p style="line-height:0.6">Weather Condition: {description}</p>
-                        <p style="line-height:0.6">Feels Like: {feelslike}</p>         
+                        <p style="line-height:0.8">Temperature: {temperature}</p>
+                        <p style="line-height:0.8">Weather Condition: {description}</p>
+                        <p style="line-height:0.8">Feels Like: {feelslike}</p>         
                     </div>""",unsafe_allow_html=True)
             
             # Column 2
@@ -202,13 +202,13 @@ if st.button("Get Weather Report",disabled=button_disabled):
                 st.markdown(f"""
                     <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;">
                         <h5>Location Details 📍:</h5>
-                        <p style="line-height:0.6">Name: {name}</p>
-                        <p style="line-height:0.6">Country: {country}</p>
-                        <p style="line-height:0.6">Region: {region}</p>
-                        <p style="line-height:0.6">Latitude: {lat}</p>
-                        <p style="line-height:0.6">Longitude: {lon}</p>
-                        <p style="line-height:0.6">Local Time: {localtime}</p>
-                        <p style="line-height:0.6">UTC Offset: {utc_offset}</p>          
+                        <p style="line-height:0.8">Name: {name}</p>
+                        <p style="line-height:0.8">Country: {country}</p>
+                        <p style="line-height:0.8">Region: {region}</p>
+                        <p style="line-height:0.8">Latitude: {lat}</p>
+                        <p style="line-height:0.8">Longitude: {lon}</p>
+                        <p style="line-height:0.8">Local Time: {localtime}</p>
+                        <p style="line-height:0.8">UTC Offset: {utc_offset}</p>          
                     </div>""",unsafe_allow_html=True)
             
             # column 3:
@@ -236,12 +236,12 @@ if st.button("Get Weather Report",disabled=button_disabled):
                 st.markdown(f"""
                     <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;">
                         <h5>Wind Details 🍃:</h5>
-                        <p style="line-height:0.6">Wind Speed: {wind_speed}</p>
-                        <p style="line-height:0.6">Wind Degree: {wind_degree}</p>
-                        <p style="line-height:0.6">Wind Direction: {wind_direction}</p>
-                        <p style="line-height:0.6">Humidity: {humidity}%</p>
-                        <p style="line-height:0.6">Pressure: {pressure} mb</p>
-                        <p style="line-height:0.6">Precipitation: {precip}</p>         
+                        <p style="line-height:0.8">Wind Speed: {wind_speed}</p>
+                        <p style="line-height:0.8">Wind Degree: {wind_degree}</p>
+                        <p style="line-height:0.8">Wind Direction: {wind_direction}</p>
+                        <p style="line-height:0.8">Humidity: {humidity}%</p>
+                        <p style="line-height:0.8">Pressure: {pressure} mb</p>
+                        <p style="line-height:0.8">Precipitation: {precip}</p>         
                     </div>""",unsafe_allow_html=True)
                 
             # column 4
@@ -260,9 +260,9 @@ if st.button("Get Weather Report",disabled=button_disabled):
                 st.markdown(f"""
                     <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;">
                         <h5>More Details:</h5>
-                        <p style="line-height:0.6">Cloud Cover: {cloudcover}%</p>
-                        <p style="line-height:0.6">Visibility: {visibility}</p>
-                        <p style="line-height:0.6">UV Index: {uvindex}</p>        
+                        <p style="line-height:0.8">Cloud Cover: {cloudcover}%</p>
+                        <p style="line-height:0.8">Visibility: {visibility}</p>
+                        <p style="line-height:0.8">UV Index: {uvindex}</p>        
                     </div>""",unsafe_allow_html=True)
             
             col1,col2,col3=st.columns(3)
