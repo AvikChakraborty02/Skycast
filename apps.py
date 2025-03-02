@@ -5,8 +5,6 @@ from xhtml2pdf import pisa
 from dotenv import load_dotenv
 
 def get_response(city_name,metric):
-    # Load environment variables from the .env file
-    load_dotenv()
 
     # Access your API key from the secrets
     api_key = st.secrets["api_keys"]["my_api_key"]
