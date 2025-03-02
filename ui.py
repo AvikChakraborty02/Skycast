@@ -106,7 +106,7 @@ col1, col2, col3 = st.columns(3)
 # Define the content of each card
 with col1:
     st.markdown("""
-        <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;">
+        <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;margin-top:2%;">
             <h3>Metric</h3>
             <p style="line-height:0.8">Temperature: Celsius</p>
         	<p style="line-height:0.8">Wind Speed/Visibility: Kilometers/Hour</p>
@@ -118,7 +118,7 @@ with col1:
 
 with col2:
     st.markdown("""
-        <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;">
+        <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;margin-top:2%;">
             <h3>Scientific</h3>
             <p style="line-height:0.8">Temperature: Kelvin</p>
         	<p style="line-height:0.8">Wind Speed/Visibility: Kilometers/Hour</p>
@@ -130,7 +130,7 @@ with col2:
 
 with col3:
     st.markdown("""
-        <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;">
+        <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;margin-top:2%;">
             <h3>Fahrenheit</h3>
             <p style="line-height:0.8">Temperature: Fahrenheit</p>
         	<p style="line-height:0.8">Wind Speed/Visibility: Miles/Hour</p>
@@ -177,7 +177,7 @@ if st.button("Get Weather Report",disabled=button_disabled):
                     feelslike+="°F"
 
                 st.markdown(f"""
-                    <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;">
+                    <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;margin-top:2%;">
                         <h5>Weather Details ☁️:</h5>
                         <div style="text-align: center;">
                             <img src="{image_url}" alt="Weather image" style="border-radius: 5px; margin: auto;">
@@ -200,7 +200,7 @@ if st.button("Get Weather Report",disabled=button_disabled):
                 utc_offset=response.get("location").get("utc_offset")
 
                 st.markdown(f"""
-                    <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;">
+                    <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;margin-top:2%;">
                         <h5>Location Details 📍:</h5>
                         <p style="line-height:0.8">Name: {name}</p>
                         <p style="line-height:0.8">Country: {country}</p>
@@ -234,7 +234,7 @@ if st.button("Get Weather Report",disabled=button_disabled):
                     precip+=" in"
 
                 st.markdown(f"""
-                    <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;">
+                    <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;margin-top:2%;">
                         <h5>Wind Details 🍃:</h5>
                         <p style="line-height:0.8">Wind Speed: {wind_speed}</p>
                         <p style="line-height:0.8">Wind Degree: {wind_degree}</p>
@@ -258,7 +258,7 @@ if st.button("Get Weather Report",disabled=button_disabled):
                     visibility+=" miles"
 
                 st.markdown(f"""
-                    <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;">
+                    <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;margin-top:2%;">
                         <h5>More Details:</h5>
                         <p style="line-height:0.8">Cloud Cover: {cloudcover}%</p>
                         <p style="line-height:0.8">Visibility: {visibility}</p>
