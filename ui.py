@@ -108,11 +108,11 @@ with col1:
     st.markdown("""
         <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;">
             <h3>Metric</h3>
-            <p style="line-height:0.7">Temperature: Celsius</p>
-        	<p style="line-height:0.7">Wind Speed/Visibility: Kilometers/Hour</p>
-	        <p style="line-height:0.7">Pressure: MB - Millibar</p>
-	        <p style="line-height:0.7">Precip: MM - Millimeters</p>
-        	<p style="line-height:0.7">Total Snow: CM - Centimeters</p>
+            <p style="line-height:0.8">Temperature: Celsius</p>
+        	<p style="line-height:0.8">Wind Speed/Visibility: Kilometers/Hour</p>
+	        <p style="line-height:0.8">Pressure: MB - Millibar</p>
+	        <p style="line-height:0.8">Precip: MM - Millimeters</p>
+        	<p style="line-height:0.8">Total Snow: CM - Centimeters</p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -120,11 +120,11 @@ with col2:
     st.markdown("""
         <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;">
             <h3>Scientific</h3>
-            <p style="line-height:0.7">Temperature: Kelvin</p>
-        	<p style="line-height:0.7">Wind Speed/Visibility: Kilometers/Hour</p>
-	        <p style="line-height:0.7">Pressure: MB - Millibar</p>
-	        <p style="line-height:0.7">Precip: MM - Millimeters</p>
-        	<p style="line-height:0.7">Total Snow: CM - Centimeters</p>
+            <p style="line-height:0.8">Temperature: Kelvin</p>
+        	<p style="line-height:0.8">Wind Speed/Visibility: Kilometers/Hour</p>
+	        <p style="line-height:0.8">Pressure: MB - Millibar</p>
+	        <p style="line-height:0.8">Precip: MM - Millimeters</p>
+        	<p style="line-height:0.8">Total Snow: CM - Centimeters</p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -132,11 +132,11 @@ with col3:
     st.markdown("""
         <div style="border: 1px solid white; padding: 20px; border-radius: 10px; background-color: #1d252d;">
             <h3>Fahrenheit</h3>
-            <p style="line-height:0.7">Temperature: Fahrenheit</p>
-        	<p style="line-height:0.7">Wind Speed/Visibility: Miles/Hour</p>
-	        <p style="line-height:0.7">Pressure: MB - Millibar</p>
-	        <p style="line-height:0.7">Precip: IN - Inches</p>
-        	<p style="line-height:0.7">Total Snow: IN - Inches</p>
+            <p style="line-height:0.8">Temperature: Fahrenheit</p>
+        	<p style="line-height:0.8">Wind Speed/Visibility: Miles/Hour</p>
+	        <p style="line-height:0.8">Pressure: MB - Millibar</p>
+	        <p style="line-height:0.8">Precip: IN - Inches</p>
+        	<p style="line-height:0.8">Total Snow: IN - Inches</p>
         </div>
     """, unsafe_allow_html=True)
 st.markdown("""<br>""",unsafe_allow_html=True)
